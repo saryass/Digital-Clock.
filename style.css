@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/516142197/photo/zurich.jpg?s=2048x2048&w=is&k=20&c=91uncob-GRvyZc_lS1MtfnodbKUhyu2who7fnlc3pyc=);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+#clock-container {
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: fit-content;
+    font-size: 10em;
+    backdrop-filter: blur(4px);
+    color: rgb(243, 220, 245);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
